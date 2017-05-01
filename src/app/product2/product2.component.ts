@@ -6,9 +6,6 @@ import {Anothorproduct0Service} from "../shared/anothorproduct0.service";
   selector: 'app-product2',
   templateUrl: './product2.component.html',
   styleUrls: ['./product2.component.css'],
-  providers: [{
-    provide: ProductService, useClass: Anothorproduct0Service
-  }]
 })
 export class Product2Component implements OnInit {
   product: Product;
